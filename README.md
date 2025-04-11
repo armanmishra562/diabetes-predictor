@@ -19,7 +19,7 @@ This project is a simple Streamlit web application that predicts the risk of dia
 ```
 diabetes-predictor/
 ├── app.py
-├── diabetes_prediction.py
+├── model.py
 ├── best_model.pkl
 ├── scaler.pkl
 ├── requirements.txt
@@ -30,21 +30,16 @@ diabetes-predictor/
 ## 🚀 How to Run Locally
 
 ```bash
+git clone https://github.com/armanmishra562/diabetes-predictor.git
+cd diabetes-predictor
 pip install -r requirements.txt
-python diabetes_prediction.py  # To train the model and save it
+python model.py  # To train the model and save it
 streamlit run app.py           # To start the Streamlit app
 ```
 
 ## 🌐 Deployment on Render
 
-- Push the project to GitHub
-- Create a new Web Service on Render
-- Use the following settings:
-
-```
-Build Command: pip install -r requirements.txt
-Start Command: streamlit run app.py --server.port=$PORT --server.enableCORS=false
-```
+👉 [Click here to open the app](https://diabetes-predictor-29ho.onrender.com)
 
 ## 🛠 Dependencies
 
