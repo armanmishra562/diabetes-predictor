@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+
+**pycache**/
+_.py[cod]
+_$py.class
+
+# Environment
+
+.env
+.venv
+
+# VSCode settings
+
+.vscode/
+
+# macOS and Linux
+
+.DS_Store
+\*.swp
+
+# Model and cache files
+
+_.pkl
+_.joblib
+
+# Streamlit logs
+
+.streamlit/
+
+# Python egg
+
+\*.egg-info/
